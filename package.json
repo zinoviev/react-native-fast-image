@@ -22,14 +22,6 @@
     "main": "dist/index.cjs.js",
     "module": "dist/index.js",
     "typings": "dist/index.d.ts",
-    "files": [
-        "android",
-        "!android/build",
-        "ios",
-        "!ios/build",
-        "dist",
-        "RNFastImage.podspec"
-    ],
     "scripts": {
         "build": "dv-scripts build && cp src/index.js.flow dist/index.js.flow",
         "lint": "dv-scripts lint",
